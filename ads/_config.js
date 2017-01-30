@@ -436,6 +436,15 @@ export const adConfig = {
 
   rubicon: {},
 
+  scm: {
+    preconnect: [
+      'https://static.freeskreen.com',
+      'https://video.freeskreen.com',
+      'https://sb.freeskreen.com'
+    ],
+    renderStartImplemented: true
+  },
+
   sharethrough: {
     renderStartImplemented: true,
   },
